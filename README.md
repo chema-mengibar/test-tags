@@ -2,7 +2,8 @@
 
 An easy, reduced and visual way to describe the steps in the test scenarios.
 
-**Example:**
+**Example:**  
+
 ![tag](./assets/img/tag-case-example.png)
 
 ## Context
