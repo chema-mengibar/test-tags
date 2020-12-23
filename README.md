@@ -1,5 +1,10 @@
 # Test tags
 
+An easy, reduced and visual way to describe the steps in the test scenarios.
+
+**Example:**
+![tag](./assets/img/tag-case-example.png)
+
 ## Context
 
 When creating an application it is always convenient to test the possible actions of the user and to be able to be sure that our application works correctly in all the variants.
@@ -89,146 +94,45 @@ All the relevant visual elements (not clickable)
 
 ### Navigation (NAV)
 
-<span class="tt nav">
-  <p class="area">NAV</p>
-  <p class="element">ELEMENT</p>
-  <p class="desc">STATUS</p>
-</span>
+![tag](./assets/img/tag-nav.png)
 
 ---
 ### Process (WAIT)
 
-Describe a waiting process for tester/user
+![tag](./assets/img/tag-wait.png)
+
+Describes a waiting process for tester/user
 - redirects
 - loading
-
-<span class="tt wait">
-  <p class="area">wait</p>
-  <p class="desc">status</p>
-</span>
 
 ---
 ### Context (CTX)
 
-<span class="tt ctx">
-  <p class="area">ctx</p>
-  <p class="element">element</p>
-  <p class="desc">status</p>
-</span>
+![tag](./assets/img/tag-ctx.png)
 
 ---
 ### User Interaction (UI)
 
-<span class="tt ui">
-  <p class="area">ui</p>
-  <p class="element">element</p>
-  <p class="desc">action</p>
-</span>
+![tag](./assets/img/tag-ui.png)
 
 ---
 ### Visual Elements (VIS)
 
-<span class="tt vis">
-  <p class="area">vis</p>
-  <p class="element">element</p>
-  <p class="desc">status</p>
-</span>
+![tag](./assets/img/tag-vis.png)
 
 ---
 ### Test Result (IS: error, ok )
 
+![tag](./assets/img/tag-is.png)
+
 Describes the result status of the test
 
-<span class="tt ok">
-  <p class="area">IS</p>
-  <p class="desc">desc</p>
-</span>
-
-<span class="tt error">
-  <p class="area">IS</p>
-  <p class="desc">desc</p>
-</span>
-
 ---
-### Test Result ( SHOULD )
+### Test Result (SHOULD)
+
+![tag](./assets/img/tag-should.png)
 
 Describes the expected status of the test
-<span class="tt should">
-  <p class="area">should</p>
-  <p class="desc">desc</p>
-</span>
-
-
-<style>
-
-.tt{
-  display:inline-block;
-  border-radius: 4px;
-  padding: 2px 5px;
-  background-color: grey;
-  font-size:10px;
-  line-height:12px;
-}
-
-.tt.wait{
-  background-color: #cccccc;
-  color: black;
-}
-
-.tt.nav{
-  background-color: #eb8934;
-  color: black;
-}
-
-.tt.ctx{
-  background-color: #bfafa1;
-  color: black;
-}
-
-.tt.ui{
-  background-color: #1687d9;
-  color: white;
-}
-
-.tt.vis{
-  background-color: #f7e23e;
-  color: black;
-}
-
-.tt.ok{
-  background-color: #15b345;
-  color: black;
-}
-
-.tt.error{
-  background-color: #f00707;
-  color: white;
-}
-
-.tt.should{
-  background-color: #000000;
-  color: white;
-}
-
-.tt p{
-  display: inline;
-}
-
-.tt p.area, .tt p.element{
-  text-transform: uppercase;
-}
-
-.tt p.desc, .tt p.element{
-  font-style: italic;
-}
-
-.tt p:not(:last-child)::after{
-  display: inline;
-  content:'|';
-  margin: 0 2px;
-}
-
-</style>
 
 
 # Usage Examples
@@ -238,33 +142,8 @@ Redirect action in Google logo in the the "search-results" Page.
 
 **Test tags:**
 
-<span class="tt nav">
-  <p class="area">NAV</p>
-  <p class="element">url-bar</p>
-  <p class="desc">insert "google.com"</p>
-</span>
-<span class="tt ui">
-  <p class="area">UI</p>
-  <p class="element">search-field</p>
-  <p class="desc">search "brownie"</p>
-</span>
-<span class="tt wait">
-  <p class="area">wait</p>
-  <p class="desc">search results page</p>
-</span>
-<span class="tt ui">
-  <p class="area">ui</p>
-  <p class="element">google-logo</p>
-  <p class="desc">click</p>
-</span>
-<span class="tt error">
-  <p class="area">IS</p>
-  <p class="desc">remain in search page</p>
-</span>
-<span class="tt should">
-  <p class="area">should</p>
-  <p class="desc">redirect to start page</p>
-</span>
+![tag](./assets/img/tag-case-example.png)
+
 
 # Integration in your project
 
