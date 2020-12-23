@@ -8,13 +8,12 @@ An easy, reduced and visual way to describe the steps in the test scenarios.
 
 ## Context
 
-When creating an application it is always convenient to test the possible actions of the user and to be able to be sure that our application works correctly in all the variants.
+When creating an application, it is always convenient to test the possible actions of the user and make sure that our application works correctly in all its variants.
 
-This testing process starts mainly with the definition of the different cases or scenarios, the corresponding steps that a user would perform and the description of how the application is expected to react. 
-If the behaviour of the application was not as expected during the execution of the tests
-The current behaviour is also described, so that we can compare how it really is and how it should be.
+This testing process starts mainly with the definition of different cases or scenarios, the corresponding steps that a user would perform and the description of how the application is expected to react. If the behaviour of the application was not as expected during the execution of the tests, it describes the process in order to later compare how it happened and how it should be.
 
 This description is the means of communication between developer and tester, as it helps them:
+
 - define what the application should and should not do
 - reproduce the scenarios several times and check that they work correctly
 - get an overview of the status of the application and identify faults
@@ -65,7 +64,7 @@ Entities saved in the browser or the application, not always directly visible.
 
 ### User interaction
 
-It groups all the elements with which the user can interact.
+Elements with which the user can interact.
 
 - click, hover
 - scroll
@@ -171,6 +170,25 @@ Define the main list of elements of your application and make it accessible to a
 It is impossible to create a list of absolutely all the elements of the project. It is important to define which ones are relevant for quality assurance.
 
 ## Inspiration an To-dos
-:)
+
+1. Drag And Drop Tool, 
+   block-based visual programming language like with https://scratch.mit.edu/
+2. Puzzle test-cases definition
+   1. Lego
+   2. Post-Its
+3. E2e tests creator tool from parsing test-tags
 
 
+
+## Related links
+
+### Tools
+- https://scratch.mit.edu/
+
+### Test standards
+- https://www.iso.org/obp/ui/#iso:std:iso-iec-ieee:29119:-4:ed-1:v1:en
+
+### Test automation
+
+- https://docs.cypress.io/guides/references/best-practices.html#Selecting-Elements
+- https://cucumber.io/docs/guides/overview/
